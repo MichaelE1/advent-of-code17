@@ -6,8 +6,8 @@ let countSize = numArray.length / 2;
 
 for (let i = 0; i <= input.length; i++) {
 	if (numArray[i] == numArray[(i + countSize) % numArray.length]) {
-  	sum += numArray[i];
-  }
+  	    sum += numArray[i];
+    }
 }
 
 console.log(sum);

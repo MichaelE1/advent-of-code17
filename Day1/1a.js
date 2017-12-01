@@ -5,12 +5,12 @@ let sum = 0;
 
 for (let i = 0; i < input.length; i++) {
 	if (numArray[i] == numArray[i + 1]) {
-  	sum += numArray[i];
-  }
+  	    sum += numArray[i];
+    }
 }
 
 if (numArray[numArray.length - 1] == numArray[0]) {
 	sum += numArray[0];
- }
+}
 
 console.log(sum);
